@@ -973,7 +973,7 @@ The value being added by Sir is something every company with a vision should loo
             <section class="pt-page pt-page-3" data-id="resume">
               <div class="section-title-block">
                 <h2 class="section-title">Resume</h2>
-                <h5 class="section-description">5+ Years of Experience</h5>
+                <h5 class="section-description"><span id='yr_exp'>8</span>+ Years of Experience</h5>
               </div>
 
               <div class="row">
@@ -1552,4 +1552,20 @@ The value being added by Sir is something every company with a vision should loo
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.hoverdir.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+      function diff_years(dt2, dt1) 
+       {
+
+        var diff =(dt2.getTime() - dt1.getTime()) / 1000;
+         diff /= (60 * 60 * 24);
+        return Math.abs(Math.round(diff/365.25));
+         
+       }
+      let dt1 = new Date("January 01, 2013 00:00:00");
+      let dt2 = new Date();
+      let yr_exp  = () => {
+        return diff_years(dt1, dt2);
+      };
+      document.getElementById("yr_exp").innerHTML = yr_exp();  
+    </script>
 </html>
