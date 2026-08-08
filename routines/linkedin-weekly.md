@@ -16,7 +16,7 @@ GUARDRAILS (non-negotiable):
 - Frame AI as augmentation of a team he remains accountable for.
 - Triple-audience test: his direct reports, his employer's leadership, and a future hiring manager should all read every post comfortably.
 
-Step 1 — Gather context: Work in the shivdhwaj/social_media repository on its DEFAULT branch (clone if needed). Read the newest file in blog/ — this week's essay, the source for Post 1. Read notes/ideas.md if present. List recent files in linkedin/ and read the last 2–3 posts so angle and structure vary week to week.
+Step 1 — Gather context: Work in the shivdhwaj/social_media repository on its DEFAULT branch (clone if needed). Read the newest file in blog/ — this week's essay, the source for Post 1. If blog/ is empty or its newest file is older than 14 days, do NOT stop or ask: write Post 1 as a standalone post on a strong theme of your choosing (from notes/ideas.md if present, otherwise a fresh practical angle on AI-augmented engineering management), skip the suggested-first-comment extra since there is no essay to link, and continue with all remaining steps. Read notes/ideas.md if present. List recent files in linkedin/ and read the last 2–3 posts so angle and structure vary week to week.
 
 Step 2 — Draft 2 posts:
 
